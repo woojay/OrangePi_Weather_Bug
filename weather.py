@@ -50,7 +50,7 @@ while True:
                 if ((hour <= 12) and (tempPrecip >= 0.1)):
                     precipCount += 1
         
-            print('\nNo. of recipitable hour blocks: '+str(precipCount))
+            print('\nNo. of precipitable hour blocks: '+str(precipCount))
             
             if (oPi):
                 call("echo 0 > /sys/class/leds/red_led/brightness", shell=True)
